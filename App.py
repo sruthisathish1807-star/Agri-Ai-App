@@ -7,7 +7,7 @@ st.title("🌱 Agri AI App")
 
 # Load your model (ensure the model file is in your repo)
 try:
-    model = load_model("your_model.h5")
+    model = load_model("my_crop_model.h5")
     st.success("✅ Model loaded successfully!")
 except Exception as e:
     st.error(f"❌ Could not load model: {e}")
