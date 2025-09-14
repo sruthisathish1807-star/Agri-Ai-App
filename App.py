@@ -6,7 +6,7 @@ from PIL import Image
 import gdown
 
 # Download model from Google Drive (replace with your file ID)
-file_id = "YOUR_FILE_ID_HERE"
+file_id="17X_Z5NKE_7avFX9l_qlHeSupeGWw4Hk1"
 output = "crop_disease_model.h5"
 gdown.download(f"https://drive.google.com/uc?id={file_id}", output, quiet=False)
 
