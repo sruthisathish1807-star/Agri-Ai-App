@@ -1,9 +1,10 @@
+import os
+import gdown
 import streamlit as st
 import numpy as np
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
 from PIL import Image
-import gdown
+import tensorflow as tf
+from tensorflow.keras.models import load_model
 
 # Download model from Google Drive (replace with your file ID)
 file_id="17X_Z5NKE_7avFX9l_qlHeSupeGWw4Hk1"
