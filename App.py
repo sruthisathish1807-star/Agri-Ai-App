@@ -1,7 +1,7 @@
-import os
-os.system("pip install gdown tensorflow-cpu pillow h5py --quiet")
-import gdown
 import streamlit as st
+import gdown
+import tensorflow as tf
+from tensorflow.keras.models import load_model
 import numpy as np
 from PIL import Image
 import tensorflow as tf
