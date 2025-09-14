@@ -1,5 +1,5 @@
 import os
-os.system("pip show gdown || pip install gdown")
+os.system("pip install gdown tensorflow-cpu pillow h5py --quiet")
 import gdown
 import streamlit as st
 import numpy as np
