@@ -1,4 +1,5 @@
 import os
+os.system("pip show gdown || pip install gdown")
 import gdown
 import streamlit as st
 import numpy as np
